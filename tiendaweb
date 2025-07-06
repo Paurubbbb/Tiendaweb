@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TiendaFlash</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    p.subtitle {
+      font-size: 1em;
+      margin: 0.5em 0 0;
+    }
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2em;
+      gap: 1.5em;
+    }
+    .product-card {
+      background-color: white;
+      width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .product-card:hover {
+      transform: scale(1.03);
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product-info {
+      padding: 1em;
+    }
+    .product-info h3 {
+      margin: 0 0 0.5em;
+    }
+    .product-info p {
+      font-size: 0.9em;
+      color: #555;
+    }
+    .product-info a {
+      display: inline-block;
+      margin-top: 1em;
+      background-color: #27ae60;
+      color: white;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 3em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TiendaFlash</h1>
+  <p class="subtitle">¡Encuentra tus productos favoritos en un solo lugar!</p>
+</header>
+
+<section class="product-container">
+  <!-- PRODUCTO 1 -->
+  <div class="product-card">
+    <img src="https://via.placeholder.com/300x200.png?text=Producto+1" alt="Producto 1">
+    <div class="product-info">
+      <h3>Audífonos Bluetooth</h3>
+      <p>Disfruta de tu música sin cables y con gran calidad de sonido.</p>
+      <a href="https://link_al_producto.com" target="_blank">Ver producto</a>
+    </div>
+  </div>
+
+  <!-- PRODUCTO 2 -->
+  <div class="product-card">
+    <img src="https://via.placeholder.com/300x200.png?text=Producto+2" alt="Producto 2">
+    <div class="product-info">
+      <h3>Set de Maquillaje</h3>
+      <p>Todo lo que necesitas para un look espectacular, en un solo estuche.</p>
+      <a href="https://link_al_producto.com" target="_blank">Ver producto</a>
+    </div>
+  </div>
+
+  <!-- PRODUCTO 3 -->
+  <div class="product-card">
+    <img src="https://via.placeholder.com/300x200.png?text=Producto+3" alt="Producto 3">
+    <div class="product-info">
+      <h3>Smartwatch Deportivo</h3>
+      <p>Monitorea tu actividad física con estilo y precisión.</p>
+      <a href="https://link_al_producto.com" target="_blank">Ver producto</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 TiendaFlash | Síguenos en redes sociales</p>
+</footer>
+
+</body>
+</html>
